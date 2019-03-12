@@ -12,18 +12,27 @@ h1 {
 
 p {
   font-size: 100%;
-  line-height: 2em;
+  line-height: 1.4em;
 }
 
 
 a {
   text-decoration: none;
+  color: pink;
+
+}
+a:hover {
+  color: hotpink;
 }
 
-button:hover {color: #0070BC;}
-button:link {color: #0070BB;}
-button:visited {color: #0070BA;}
-button:active { color: #0070BA;}
+figcaption {
+  text-transform: capitalize;
+}
+
+.photo {
+  width: 400px;
+  height: 400px;
+}
 
 
 
@@ -40,11 +49,11 @@ nav {
 }
 
 .large-pic {
-  width: 100%;
+  width: 300px;
 }
 
 .medium-pic {
-  width: 70%;
+  width: 50%;
 }
 
 .left, .right {
